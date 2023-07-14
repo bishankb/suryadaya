@@ -1,0 +1,10 @@
+{
+    "/js/backend.js": "/js/backend.js",
+    "/js/ckeditor.config.js": "/js/ckeditor.config.js",
+    "/css/backend.css": "/css/backend.css",
+    "/css/auth.css": "/css/auth.css",
+    "/js/frontend.js": "/js/frontend.js",
+    "/css/frontend.css": "/css/frontend.css",
+    "/css/ajax-loader.gif": "/css/ajax-loader.gif",
+    "/css/error.css": "/css/error.css"
+}

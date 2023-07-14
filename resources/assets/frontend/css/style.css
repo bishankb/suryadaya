@@ -1,0 +1,80 @@
+body{
+  background:white;
+}
+
+nav a{
+        color:white;
+}
+
+.logo{
+    color: white;
+    height: 5%;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+
+.logo img {
+  height: 65px;
+  width: auto;
+}
+
+@media (max-width: 580px) {
+  .logo{
+    text-align: center;
+    margin-left: 0;
+  }
+  
+  .logo img {
+    height: 45px;
+  }
+
+}
+
+.slider{
+  background:#31D11B;
+  height:500px;
+}
+
+/*HEADER SECTION CSS*/
+#header{
+	height: 50px;
+	margin-top: 12px;
+}
+.navbar{
+	background-color: green;
+}
+.navbar a{
+    color: #31D11B;
+	text-decoration: none;
+}
+.navbar a:hover{
+	color: #31D11B;
+	text-decoration: none;
+}
+/*SUB HEADER*/
+.navbar-default{
+	background-color: gray;
+}
+.navbar-form{
+	float: right;
+}
+
+form.example input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+@media only screen and (max-width: 1026px) {
+    #motto{
+        display: none;
+    }
+}
+/*footer*/
+footer{
+  background: black;
+  color: white;
+}

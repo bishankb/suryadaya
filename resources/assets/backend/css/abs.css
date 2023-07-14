@@ -1,0 +1,461 @@
+.clear-fix:before, .booking-details ul:before, .enquiry-list:before {
+  content: '';
+  display: table;
+}
+
+.clear-fix:after, .booking-details ul:after, .enquiry-list:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.block {
+  display: block;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+@-webkit-keyframes spinAround {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes spinAround {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+.red {
+  color: blue;
+}
+
+.dataTables_processing {
+  text-indent: -9999px;
+  height: 100% !important;
+  width: 100% !important;
+  z-index: 9;
+  top: 0 !important;
+  left: 0 !important;
+  background: none !important;
+  margin: 0 !important;
+  background-color: rgba(54, 65, 80, 0.26) !important;
+  border: none !important;
+  box-shadow: inherit !important;
+}
+
+.dataTables_processing:after {
+  webkit-animation: spinAround 500ms infinite linear;
+  -webkit-animation: spinAround 500ms infinite linear;
+          animation: spinAround 500ms infinite linear;
+  border: 3px solid #36c6d3;
+  border-radius: 290486px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  left: calc(50% - (1em / 2));
+  top: calc(50% - (1em / 2));
+}
+
+.page-bar {
+  margin-bottom: 30px !important;
+}
+
+.page-content-white .page-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-container-bg-solid .page-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-header.navbar .page-logo .logo-default {
+  margin: 5px 0 0;
+  width: 50%;
+}
+
+.page-header.navbar .page-logo > a, .page-header.navbar .page-logo > .logo-image {
+  text-align: center;
+}
+
+.portlet-body.form {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.booking-details ul {
+  padding: 0;
+}
+
+.booking-details ul li {
+  width: 49%;
+  float: left;
+  margin-right: 1%;
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.booking-details ul li:last-child {
+  margin-right: 0;
+}
+
+ul.booking-list {
+  padding: 0;
+}
+
+ul.booking-list li {
+  list-style-type: none;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+ul.booking-list li a {
+  background: #E9EDEF;
+  display: block;
+  padding: 5px 15px;
+  color: #000;
+}
+
+ul.booking-list li a:hover {
+  text-decoration: none;
+}
+
+#app1 ul {
+  max-height: 155px;
+  overflow: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style: none;
+}
+
+#app1 ul li {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#app1 ul li a {
+  display: block;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.25);
+  text-decoration: none;
+  padding: 7px 15px 7px 0px;
+  background: url(../img/portlet-collapse-icon-white.png);
+}
+
+#app1 ul li a:hover {
+  color: #346688;
+}
+
+#app1 h4.title {
+  background: rgba(47, 52, 59, 0.1);
+  padding: 15px;
+  margin: 0;
+  color: #343a41;
+  margin-bottom: 10px;
+}
+
+h4.badge {
+  font-size: 16px !important;
+  height: inherit;
+}
+
+h4.badge span {
+  font-size: 16px !important;
+}
+
+.booking-details-list td:first-child {
+  font-weight: bold;
+  border-right: 1px solid rgba(204, 204, 204, 0.26);
+  width: 20%;
+}
+
+.results td:first-child {
+  border-right: 1px solid rgba(204, 204, 204, 0.23);
+  font-weight: bold;
+}
+
+.results .status {
+  color: #ad6900;
+}
+
+.enquiry-statistics {
+  padding: 0;
+}
+
+.enquiry-statistics li {
+  list-style: none;
+  border-bottom: 1px solid #eef1f5;
+}
+
+.enquiry-statistics li a {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.enquiry-list {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.enquiry-list li {
+  list-style-type: none;
+  float: left;
+  width: 50%;
+  padding: 5px 10px;
+}
+
+.email-promotional {
+  height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+span.select2 {
+  width: 100% !important;
+}
+
+.fa-edit {
+  color: #3598dc;
+}
+
+.portlet-body .panel-primary {
+  border-color: #36c6d3;
+}
+
+#searchSection .panel .panel-body {
+  font-size: 14px !important;
+}
+
+.total-price {
+  display: table;
+  width: 100%;
+}
+
+.total-price span {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.total-price span sub {
+  padding: 0;
+}
+
+.total-price span.rate-labour {
+  font-size: 24px;
+}
+
+.total-price span.rate-labour span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+.total-price span.add-icon {
+  font-size: 50px;
+}
+
+.total-price span.rate-storage {
+  font-size: 24px;
+}
+
+.total-price span.rate-storage span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+.summary-data .col-md-6:last-child {
+  border-left: 1px solid #dadada;
+}
+
+
+.page-header.navbar .top-menu .navbar-nav>li.dropdown>.dropdown-toggle {
+  padding: 15px 10px 10px !important;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: #e1e3e9;
+  color: #333;
+}
+.dropdown-menu > .divider {
+  background-color: #eee;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu,
+.navbar-nav > .messages-menu > .dropdown-menu,
+.navbar-nav > .tasks-menu > .dropdown-menu {
+  width: 280px;
+  padding: 0 0 0 0;
+  margin: 0;
+  top: 100%;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li,
+.navbar-nav > .messages-menu > .dropdown-menu > li,
+.navbar-nav > .tasks-menu > .dropdown-menu > li {
+  position: relative;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li.header,
+.navbar-nav > .messages-menu > .dropdown-menu > li.header,
+.navbar-nav > .tasks-menu > .dropdown-menu > li.header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #ffffff;
+  padding: 7px 10px;
+  border-bottom: 1px solid #f4f4f4;
+  color: #444444;
+  font-size: 14px;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li.footer > a,
+.navbar-nav > .messages-menu > .dropdown-menu > li.footer > a,
+.navbar-nav > .tasks-menu > .dropdown-menu > li.footer > a {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 12px;
+  background-color: #fff;
+  padding: 7px 10px;
+  border-bottom: 1px solid #eeeeee;
+  color: #444 !important;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .navbar-nav > .notifications-menu > .dropdown-menu > li.footer > a,
+  .navbar-nav > .messages-menu > .dropdown-menu > li.footer > a,
+  .navbar-nav > .tasks-menu > .dropdown-menu > li.footer > a {
+    background: #fff !important;
+    color: #444 !important;
+  }
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li.footer > a:hover,
+.navbar-nav > .messages-menu > .dropdown-menu > li.footer > a:hover,
+.navbar-nav > .tasks-menu > .dropdown-menu > li.footer > a:hover {
+  text-decoration: none;
+  font-weight: normal;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu,
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu,
+.navbar-nav > .tasks-menu > .dropdown-menu > li .menu {
+  max-height: 200px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: hidden;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a,
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a,
+.navbar-nav > .tasks-menu > .dropdown-menu > li .menu > li > a {
+  display: block;
+  white-space: nowrap;
+  /* Prevent text from breaking */
+  border-bottom: 1px solid #f4f4f4;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a:hover,
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a:hover,
+.navbar-nav > .tasks-menu > .dropdown-menu > li .menu > li > a:hover {
+  background: #f4f4f4;
+  text-decoration: none;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a {
+  color: #444444;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px;
+}
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .glyphicon,
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .fa,
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .ion {
+  width: 20px;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a {
+  margin: 0;
+  padding: 10px 10px;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > div > img {
+  margin: auto 10px auto auto;
+  width: 40px;
+  height: 40px;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4 {
+  padding: 0;
+  margin: 0 0 0 45px;
+  color: #444444;
+  font-size: 15px;
+  position: relative;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > h4 > small {
+  color: #999999;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a > p {
+  margin: 0 0 0 45px;
+  font-size: 12px;
+  color: #888888;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a:before,
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a:after {
+  content: " ";
+  display: table;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a:after {
+  clear: both;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a:before,
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a:after {
+  content: " ";
+  display: table;
+}
+.navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a:after {
+  clear: both;
+}
+.navbar-nav > .tasks-menu > .dropdown-menu > li .menu > li > a {
+  padding: 10px;
+}
+.navbar-nav > .tasks-menu > .dropdown-menu > li .menu > li > a > h3 {
+  font-size: 14px;
+  padding: 0;
+  margin: 0 0 10px 0;
+  color: #666666;
+}
+
+.check-mail {
+    color: #444 !important;
+    text-align: center;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    margin: 0;
+    font-family: inherit;
+}
+
+.no-notification {
+  text-align: center;
+  font-family: inherit;
+  font-size: 15px;
+}
